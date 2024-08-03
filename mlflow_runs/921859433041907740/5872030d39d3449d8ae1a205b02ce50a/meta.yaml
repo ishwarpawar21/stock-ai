@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ishwarpawar/Desktop/stock_AI/stock-ai/mlflow_runs/921859433041907740/5872030d39d3449d8ae1a205b02ce50a/artifacts
+end_time: 1722631081347
+entry_point_name: ''
+experiment_id: '921859433041907740'
+lifecycle_stage: active
+run_id: 5872030d39d3449d8ae1a205b02ce50a
+run_name: thoughtful-wolf-835
+run_uuid: 5872030d39d3449d8ae1a205b02ce50a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722631062443
+status: 3
+tags: []
+user_id: ishwarpawar

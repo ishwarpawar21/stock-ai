@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ishwarpawar/Desktop/stock_AI/stock-ai/mlflow_runs/333168754795787356/147fa695616b46149771a9f1149f8aa0/artifacts
+end_time: 1722667913909
+entry_point_name: ''
+experiment_id: '333168754795787356'
+lifecycle_stage: active
+run_id: 147fa695616b46149771a9f1149f8aa0
+run_name: blushing-ape-333
+run_uuid: 147fa695616b46149771a9f1149f8aa0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722667003461
+status: 3
+tags: []
+user_id: ishwarpawar

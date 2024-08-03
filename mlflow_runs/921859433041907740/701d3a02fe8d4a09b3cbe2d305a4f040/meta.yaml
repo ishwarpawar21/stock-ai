@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ishwarpawar/Desktop/stock_AI/stock-ai/mlflow_runs/921859433041907740/701d3a02fe8d4a09b3cbe2d305a4f040/artifacts
+end_time: 1722631009018
+entry_point_name: ''
+experiment_id: '921859433041907740'
+lifecycle_stage: active
+run_id: 701d3a02fe8d4a09b3cbe2d305a4f040
+run_name: rebellious-fox-676
+run_uuid: 701d3a02fe8d4a09b3cbe2d305a4f040
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722630990075
+status: 3
+tags: []
+user_id: ishwarpawar

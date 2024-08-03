@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ishwarpawar/Desktop/stock_AI/stock-ai/mlflow_runs/333168754795787356/bf237fd785884f5d87c45fdea1d9954f/artifacts
+end_time: 1722556769756
+entry_point_name: ''
+experiment_id: '333168754795787356'
+lifecycle_stage: active
+run_id: bf237fd785884f5d87c45fdea1d9954f
+run_name: historical_candle_data
+run_uuid: bf237fd785884f5d87c45fdea1d9954f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722556761373
+status: 4
+tags: []
+user_id: ishwarpawar

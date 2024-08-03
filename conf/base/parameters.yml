@@ -1,0 +1,38 @@
+# upstox_client_id: "dddc3938-18e2-43c0-9c9c-b92a93e7a293"
+
+symbols: ["NSE_EQ|SBIN"]
+raw_data_path: "data/01_raw"
+
+# aws_access_key_id_k: "AKIAYBZKOMKVI3FXTNWH"
+# aws_secret_access_key_k: "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"
+# kinesis_stream_name: "StockStreamAIv4-KdsDataStream4BCE778D-3HLDrwD9dP4E"
+# region_name: us-east-1
+
+access_token_filepath: "/Users/ishwarpawar/Desktop/stock_AI/stock-ai/conf/local/access_token.json"
+upstox_client_id: "dddc3938-18e2-43c0-9c9c-b92a93e7a293"
+upstox_client_secret: "7um0psws3k"
+# auth_code: "your_auth_code"
+redirect_uri: "http://127.0.0.1:5000/callback"
+upstox_grant_type: "authorization_code"
+
+token_filepath: "/Users/ishwarpawar/Desktop/stock_AI/stock-ai/conf/local/access_token.json"
+interval_1minute: "1minute"
+interval_30minute: "30minute"
+interval_day: "day"
+interval_week: "week"
+interval_month: "month"
+
+instrument_key_NSE_INDEX_Nifty_50: "NSE_INDEX|Nifty 50"
+instrument_key_NSE_INDEX_Nifty_Bank: "NSE_INDEX|Nifty Bank"
+# raw_data_output_NSE_INDEX_Nifty_50_1minute: "data/01_raw/NSE_INDEX_Nifty_50/1minute.json"
+# raw_data_output_NSE_INDEX_Nifty_50_30minute: "data/01_raw/NSE_INDEX_Nifty_50/30minute.json"
+# raw_data_output_NSE_INDEX_Nifty_50_day: "data/01_raw/NSE_INDEX_Nifty_50/day.json"
+# raw_data_output_NSE_INDEX_Nifty_50_week: "data/01_raw/NSE_INDEX_Nifty_50/week.json"
+# raw_data_output_NSE_INDEX_Nifty_50_month: "data/01_raw/NSE_INDEX_Nifty_50/month.json"
+# instrument_key_NSE_INDEX_NIFTY100: "NSE_INDEX|NIFTY100"
+# intermediate_data_output_NSE_INDEX_Nifty_50_1minute: "data/02_intermediate/NSE_INDEX_Nifty_50/1minute.parquet"
+# intermediate_data_output_NSE_INDEX_Nifty_50_30minute: "data/02_intermediate/NSE_INDEX_Nifty_50/30minute.parquet"
+# intermediate_data_output_NSE_INDEX_Nifty_50_day: "data/02_intermediate/NSE_INDEX_Nifty_50/day.parquet"
+# intermediate_data_output_NSE_INDEX_Nifty_50_week: "data/02_intermediate/NSE_INDEX_Nifty_50/week.parquet"
+# intermediate_data_output_NSE_INDEX_Nifty_50_month: "data/02_intermediate/NSE_INDEX_Nifty_50/month.parquet"
+# Repeat for other instrument keys

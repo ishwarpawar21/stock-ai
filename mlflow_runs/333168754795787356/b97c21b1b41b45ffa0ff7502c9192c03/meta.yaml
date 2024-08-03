@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ishwarpawar/Desktop/stock_AI/stock-ai/mlflow_runs/333168754795787356/b97c21b1b41b45ffa0ff7502c9192c03/artifacts
+end_time: 1722678192861
+entry_point_name: ''
+experiment_id: '333168754795787356'
+lifecycle_stage: active
+run_id: b97c21b1b41b45ffa0ff7502c9192c03
+run_name: mysterious-dove-476
+run_uuid: b97c21b1b41b45ffa0ff7502c9192c03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722674968520
+status: 3
+tags: []
+user_id: ishwarpawar

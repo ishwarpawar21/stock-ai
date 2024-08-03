@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ishwarpawar/Desktop/stock_AI/stock-ai/mlflow_runs/333168754795787356/dc5f6f51e3374c99a0db92c3729c7a96/artifacts
+end_time: 1722671147467
+entry_point_name: ''
+experiment_id: '333168754795787356'
+lifecycle_stage: active
+run_id: dc5f6f51e3374c99a0db92c3729c7a96
+run_name: marvelous-grouse-50
+run_uuid: dc5f6f51e3374c99a0db92c3729c7a96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722671104486
+status: 4
+tags: []
+user_id: ishwarpawar

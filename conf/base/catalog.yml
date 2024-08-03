@@ -1,0 +1,490 @@
+# conf/base/catalog.yml
+
+access_token:
+  type: pickle.PickleDataset
+  filepath: data/03_primary/access_token.pkl
+
+access_kinesis:
+  type: pickle.PickleDataset
+  filepath: data/03_primary/access_kinesis.pkl
+
+kinesis_client:
+  type: pickle.PickleDataset
+  filepath: data/03_primary/kinesis_client.pkl
+
+# Validated access token
+validated_access_token:
+  type: MemoryDataset
+
+# Nifty_50
+# WebSocket validated data
+validated_websocket_data_NSE_INDEX_Nifty_50:
+  type: MemoryDataset
+
+
+#=============================================================================
+#  NSE_INDEX_Nifty_Bank
+# ================================================================
+# --------------------- 1 minute -------------------------------------------
+# Raw JSON datasets
+raw_data_NSE_INDEX_Nifty_Bank_1minute:
+  type: json.JSONDataset
+  filepath: data/01_raw/NSE_INDEX_Nifty_Bank/1minute.json
+
+transformed_data_NSE_INDEX_Nifty_Bank_1minute@csv:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/NSE_INDEX_Nifty_Bank/1minute.csv
+  save_args:
+    index: False
+
+indicators_data_NSE_INDEX_Nifty_Bank_1minute@csv:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/NSE_INDEX_Nifty_Bank/1minute.csv
+  save_args:
+    index: False
+
+feature_engineering_data_NSE_INDEX_Nifty_Bank_1minute@csv:
+  type: pandas.CSVDataset
+  filepath: data/04_feature/NSE_INDEX_Nifty_Bank/1minute.csv
+  save_args:
+    index: False
+
+feature_engineering_data_NSE_INDEX_Nifty_Bank_1minute@spark:
+  type: spark.SparkDataset
+  filepath: data/04_feature/NSE_INDEX_Nifty_Bank/1minute.csv
+  file_format: "csv"
+  load_args:
+    header: True
+    inferSchema: True
+  save_args:
+    sep: ","
+    header: True
+
+# --------------------- 30 minute -------------------------------------------
+# Raw JSON datasets
+raw_data_NSE_INDEX_Nifty_Bank_30minute:
+  type: json.JSONDataset
+  filepath: data/01_raw/NSE_INDEX_Nifty_Bank/30minute.json
+
+transformed_data_NSE_INDEX_Nifty_Bank_30minute@csv:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/NSE_INDEX_Nifty_Bank/30minute.csv
+  save_args:
+    index: False
+
+indicators_data_NSE_INDEX_Nifty_Bank_30minute@csv:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/NSE_INDEX_Nifty_Bank/30minute.csv
+  save_args:
+    index: False
+
+feature_engineering_data_NSE_INDEX_Nifty_Bank_30minute@csv:
+  type: pandas.CSVDataset
+  filepath: data/04_feature/NSE_INDEX_Nifty_Bank/30minute.csv
+  save_args:
+    index: False
+
+feature_engineering_data_NSE_INDEX_Nifty_Bank_30minute@spark:
+  type: spark.SparkDataset
+  filepath: data/04_feature/NSE_INDEX_Nifty_Bank/30minute.csv
+  file_format: "csv"
+  load_args:
+    header: True
+    inferSchema: True
+  save_args:
+    sep: ","
+    header: True
+# --------------------- day  -------------------------------------------
+# Raw JSON datasets
+raw_data_NSE_INDEX_Nifty_Bank_day:
+  type: json.JSONDataset
+  filepath: data/01_raw/NSE_INDEX_Nifty_Bank/day.json
+
+transformed_data_NSE_INDEX_Nifty_Bank_day@csv:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/NSE_INDEX_Nifty_Bank/day.csv
+  save_args:
+    index: False
+
+indicators_data_NSE_INDEX_Nifty_Bank_day@csv:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/NSE_INDEX_Nifty_Bank/day.csv
+  save_args:
+    index: False
+
+feature_engineering_data_NSE_INDEX_Nifty_Bank_day@csv:
+  type: pandas.CSVDataset
+  filepath: data/04_feature/NSE_INDEX_Nifty_Bank/day.csv
+  save_args:
+    index: False
+
+feature_engineering_data_NSE_INDEX_Nifty_Bank_day@spark:
+  type: spark.SparkDataset
+  filepath: data/04_feature/NSE_INDEX_Nifty_Bank/day.csv
+  file_format: "csv"
+  load_args:
+    header: True
+    inferSchema: True
+  save_args:
+    sep: ","
+    header: True
+
+# --------------------- week  -------------------------------------------
+# Raw JSON datasets
+raw_data_NSE_INDEX_Nifty_Bank_week:
+  type: json.JSONDataset
+  filepath: data/01_raw/NSE_INDEX_Nifty_Bank/week.json
+
+transformed_data_NSE_INDEX_Nifty_Bank_week@csv:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/NSE_INDEX_Nifty_Bank/week.csv
+  save_args:
+    index: False
+
+indicators_data_NSE_INDEX_Nifty_Bank_week@csv:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/NSE_INDEX_Nifty_Bank/week.csv
+  save_args:
+    index: False
+
+feature_engineering_data_NSE_INDEX_Nifty_Bank_week@csv:
+  type: pandas.CSVDataset
+  filepath: data/04_feature/NSE_INDEX_Nifty_Bank/week.csv
+  save_args:
+    index: False
+
+feature_engineering_data_NSE_INDEX_Nifty_Bank_week@spark:
+  type: spark.SparkDataset
+  filepath: data/04_feature/NSE_INDEX_Nifty_Bank/week.csv
+  file_format: "csv"
+  load_args:
+    header: True
+    inferSchema: True
+  save_args:
+    sep: ","
+    header: True
+
+# --------------------- month  -------------------------------------------
+# Raw JSON datasets
+raw_data_NSE_INDEX_Nifty_Bank_month:
+  type: json.JSONDataset
+  filepath: data/01_raw/NSE_INDEX_Nifty_Bank/month.json
+
+transformed_data_NSE_INDEX_Nifty_Bank_month@csv:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/NSE_INDEX_Nifty_Bank/month.csv
+  save_args:
+    index: False
+
+indicators_data_NSE_INDEX_Nifty_Bank_month@csv:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/NSE_INDEX_Nifty_Bank/month.csv
+  save_args:
+    index: False
+
+feature_engineering_data_NSE_INDEX_Nifty_Bank_month@csv:
+  type: pandas.CSVDataset
+  filepath: data/04_feature/NSE_INDEX_Nifty_Bank/month.csv
+  save_args:
+    index: False
+
+# feature_engineering_data_NSE_INDEX_Nifty_Bank_month@spark:
+#   type: spark.SparkDataset
+#   filepath: data/04_feature/NSE_INDEX_Nifty_Bank/month.csv
+#   file_format: "csv"
+#   load_args:
+#     header: True
+#     inferSchema: True
+#   save_args:
+#     sep: ","
+#     header: True
+
+# ---------------------training and testing data....
+
+train_data_16w_8w_NSE_INDEX_Nifty_Bank_1minute@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/1minute/train_16w_8w.parquet
+  save_args:
+    mode: overwrite
+
+train_data_16w_8w_NSE_INDEX_Nifty_Bank_1minute_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/1minute/train_16w_8w.csv
+  save_args:
+    index: False
+
+test_data_16w_8w_NSE_INDEX_Nifty_Bank_1minute@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/1minute/test_16w_8w.parquet
+  save_args:
+    mode: overwrite
+
+test_data_16w_8w_NSE_INDEX_Nifty_Bank_1minute_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/1minute/test_16w_8w.csv
+  save_args:
+    index: False
+
+train_data_20w_4w_NSE_INDEX_Nifty_Bank_1minute@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/1minute/train_20w_4w.parquet
+  save_args:
+    mode: overwrite
+
+train_data_20w_4w_NSE_INDEX_Nifty_Bank_1minute_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/1minute/train_20w_4w.csv
+  save_args:
+    index: False
+
+test_data_20w_4w_NSE_INDEX_Nifty_Bank_1minute@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/1minute/test_20w_4w.parquet
+  save_args:
+    mode: overwrite
+
+test_data_20w_4w_NSE_INDEX_Nifty_Bank_1minute_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/1minute/test_20w_4w.csv
+  save_args:
+    index: False
+
+train_data_22w_2w_NSE_INDEX_Nifty_Bank_1minute@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/1minute/train_22w_2w.parquet
+  save_args:
+    mode: overwrite
+
+train_data_22w_2w_NSE_INDEX_Nifty_Bank_1minute_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/1minute/train_22w_2w.csv
+  save_args:
+    index: False
+
+test_data_22w_2w_NSE_INDEX_Nifty_Bank_1minute@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/1minute/test_22w_2w.parquet
+  save_args:
+    mode: overwrite
+
+test_data_22w_2w_NSE_INDEX_Nifty_Bank_1minute_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/1minute/test_22w_2w.csv
+  save_args:
+    index: False
+
+train_data_23w_1w_NSE_INDEX_Nifty_Bank_1minute@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/1minute/train_23w_1w.parquet
+  save_args:
+    mode: overwrite
+
+train_data_23w_1w_NSE_INDEX_Nifty_Bank_1minute_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/1minute/train_23w_1w.csv
+  save_args:
+    index: False
+
+test_data_23w_1w_NSE_INDEX_Nifty_Bank_1minute@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/1minute/test_23w_1w.parquet
+  save_args:
+    mode: overwrite
+
+test_data_23w_1w_NSE_INDEX_Nifty_Bank_1minute_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/1minute/test_23w_1w.csv
+  save_args:
+    index: False
+
+train_data_16w_8w_NSE_INDEX_Nifty_Bank_30minute@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/30minute/train_16w_8w.parquet
+  save_args:
+    mode: overwrite
+
+train_data_16w_8w_NSE_INDEX_Nifty_Bank_30minute_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/30minute/train_16w_8w.csv
+  save_args:
+    index: False
+
+test_data_16w_8w_NSE_INDEX_Nifty_Bank_30minute@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/30minute/test_16w_8w.parquet
+  save_args:
+    mode: overwrite
+
+test_data_16w_8w_NSE_INDEX_Nifty_Bank_30minute_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/30minute/test_16w_8w.csv
+  save_args:
+    index: False
+
+train_data_20w_4w_NSE_INDEX_Nifty_Bank_30minute@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/30minute/train_20w_4w.parquet
+  save_args:
+    mode: overwrite
+
+train_data_20w_4w_NSE_INDEX_Nifty_Bank_30minute_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/30minute/train_20w_4w.csv
+  save_args:
+    index: False
+
+test_data_20w_4w_NSE_INDEX_Nifty_Bank_30minute@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/30minute/test_20w_4w.parquet
+  save_args:
+    mode: overwrite
+
+test_data_20w_4w_NSE_INDEX_Nifty_Bank_30minute_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/30minute/test_20w_4w.csv
+  save_args:
+    index: False
+
+train_data_22w_2w_NSE_INDEX_Nifty_Bank_30minute@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/30minute/train_22w_2w.parquet
+  save_args:
+    mode: overwrite
+
+train_data_22w_2w_NSE_INDEX_Nifty_Bank_30minute_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/30minute/train_22w_2w.csv
+  save_args:
+    index: False
+
+test_data_22w_2w_NSE_INDEX_Nifty_Bank_30minute@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/30minute/test_22w_2w.parquet
+  save_args:
+    mode: overwrite
+
+test_data_22w_2w_NSE_INDEX_Nifty_Bank_30minute_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/30minute/test_22w_2w.csv
+  save_args:
+    index: False
+
+train_data_23w_1w_NSE_INDEX_Nifty_Bank_30minute@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/30minute/train_23w_1w.parquet
+  save_args:
+    mode: overwrite
+
+train_data_23w_1w_NSE_INDEX_Nifty_Bank_30minute_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/30minute/train_23w_1w.csv
+  save_args:
+    index: False
+
+test_data_23w_1w_NSE_INDEX_Nifty_Bank_30minute@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/30minute/test_23w_1w.parquet
+  save_args:
+    mode: overwrite
+
+test_data_23w_1w_NSE_INDEX_Nifty_Bank_30minute_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/30minute/test_23w_1w.csv
+  save_args:
+    index: False
+
+train_data_16w_8w_NSE_INDEX_Nifty_Bank_day@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/day/train_16w_8w.parquet
+  save_args:
+    mode: overwrite
+
+train_data_16w_8w_NSE_INDEX_Nifty_Bank_day_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/day/train_16w_8w.csv
+  save_args:
+    index: False
+
+test_data_16w_8w_NSE_INDEX_Nifty_Bank_day@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/day/test_16w_8w.parquet
+  save_args:
+    mode: overwrite
+
+test_data_16w_8w_NSE_INDEX_Nifty_Bank_day_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/day/test_16w_8w.csv
+  save_args:
+    index: False
+
+train_data_20w_4w_NSE_INDEX_Nifty_Bank_day@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/day/train_20w_4w.parquet
+  save_args:
+    mode: overwrite
+
+train_data_20w_4w_NSE_INDEX_Nifty_Bank_day_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/day/train_20w_4w.csv
+  save_args:
+    index: False
+
+test_data_20w_4w_NSE_INDEX_Nifty_Bank_day@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/day/test_20w_4w.parquet
+  save_args:
+    mode: overwrite
+
+test_data_20w_4w_NSE_INDEX_Nifty_Bank_day_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/day/test_20w_4w.csv
+  save_args:
+    index: False
+
+train_data_22w_2w_NSE_INDEX_Nifty_Bank_day@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/day/train_22w_2w.parquet
+  save_args:
+    mode: overwrite
+
+train_data_22w_2w_NSE_INDEX_Nifty_Bank_day_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/day/train_22w_2w.csv
+  save_args:
+    index: False
+
+test_data_22w_2w_NSE_INDEX_Nifty_Bank_day@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/day/test_22w_2w.parquet
+  save_args:
+    mode: overwrite
+
+test_data_22w_2w_NSE_INDEX_Nifty_Bank_day_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/day/test_22w_2w.csv
+  save_args:
+    index: False
+
+train_data_23w_1w_NSE_INDEX_Nifty_Bank_day@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/day/train_23w_1w.parquet
+  save_args:
+    mode: overwrite
+
+train_data_23w_1w_NSE_INDEX_Nifty_Bank_day_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/day/train_23w_1w.csv
+  save_args:
+    index: False
+
+test_data_23w_1w_NSE_INDEX_Nifty_Bank_day@spark:
+  type: spark.SparkDataSet
+  filepath: data/05_model_input/NSE_INDEX_Nifty_Bank/day/test_23w_1w.parquet
+  save_args:
+    mode: overwrite
+
+test_data_23w_1w_NSE_INDEX_Nifty_Bank_day_s3@csv:
+  type: pandas.CSVDataset
+  filepath: s3://stock-ai/data/05_model_input/NSE_INDEX_Nifty_Bank/day/test_23w_1w.csv
+  save_args:
+    index: False

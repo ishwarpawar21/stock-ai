@@ -1,0 +1,11 @@
+# This is a boilerplate parameters config generated for pipeline 'historical_candle_data'
+# using Kedro 0.19.6.
+#
+# Documentation for this file format can be found in "Parameters"
+# Link: https://docs.kedro.org/en/0.19.6/configuration/parameters.html
+
+#traing and testing data sets
+16w_8w: "16w_8w"
+20w_4w: "20w_4w"
+22w_2w: "22w_2w"
+23w_1w: "23w_1w"

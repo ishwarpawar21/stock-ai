@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ishwarpawar/Desktop/stock_AI/stock-ai/mlflow_runs/333168754795787356/0215624287744c54bad62754681bc9fd/artifacts
+end_time: 1722670828168
+entry_point_name: ''
+experiment_id: '333168754795787356'
+lifecycle_stage: active
+run_id: 0215624287744c54bad62754681bc9fd
+run_name: persistent-skink-504
+run_uuid: 0215624287744c54bad62754681bc9fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722670827534
+status: 3
+tags: []
+user_id: ishwarpawar

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ishwarpawar/Desktop/stock_AI/stock-ai/mlflow_runs/333168754795787356/4afd7b673c384ab494d5d48b6bdc6394/artifacts
+end_time: 1722669595347
+entry_point_name: ''
+experiment_id: '333168754795787356'
+lifecycle_stage: active
+run_id: 4afd7b673c384ab494d5d48b6bdc6394
+run_name: capricious-snail-76
+run_uuid: 4afd7b673c384ab494d5d48b6bdc6394
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722668643114
+status: 3
+tags: []
+user_id: ishwarpawar

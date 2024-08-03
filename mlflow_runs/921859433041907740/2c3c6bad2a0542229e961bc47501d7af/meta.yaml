@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ishwarpawar/Desktop/stock_AI/stock-ai/mlflow_runs/921859433041907740/2c3c6bad2a0542229e961bc47501d7af/artifacts
+end_time: 1722631298580
+entry_point_name: ''
+experiment_id: '921859433041907740'
+lifecycle_stage: active
+run_id: 2c3c6bad2a0542229e961bc47501d7af
+run_name: zealous-perch-927
+run_uuid: 2c3c6bad2a0542229e961bc47501d7af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722631279004
+status: 3
+tags: []
+user_id: ishwarpawar

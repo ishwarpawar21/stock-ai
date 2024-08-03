@@ -1,0 +1,14 @@
+server:
+  mlflow_tracking_uri: mlflow_runs
+# mlflow:
+#   server:
+#     mlflow_ui_url: "http://localhost:5050"
+#     mlflow_tracking_uri: "file:///path/to/your/mlruns"
+#   tracking:
+#     experiment:
+#       name: "stock_prediction_experiment"
+#       create: true
+#     run:
+#       id: null
+#       name: "run_name"
+#       nested: true

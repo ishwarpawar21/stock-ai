@@ -1,0 +1,1 @@
+{"train_data_20w_4w_NSE_INDEX_Nifty_Bank_day_s3": {"rows": 66, "columns": 20, "file_size": 14883}, "test_data_20w_4w_NSE_INDEX_Nifty_Bank_day_s3": {"rows": 21, "columns": 20, "file_size": 4831}, "transformed_data_NSE_INDEX_Nifty_Bank_month": {"rows": 5, "columns": 7, "file_size": 374}, "transformed_data_NSE_INDEX_Nifty_Bank_week": {"rows": 25, "columns": 7, "file_size": 1659}}

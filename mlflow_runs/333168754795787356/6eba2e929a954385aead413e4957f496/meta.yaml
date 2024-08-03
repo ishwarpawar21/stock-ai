@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ishwarpawar/Desktop/stock_AI/stock-ai/mlflow_runs/333168754795787356/6eba2e929a954385aead413e4957f496/artifacts
+end_time: 1722679759147
+entry_point_name: ''
+experiment_id: '333168754795787356'
+lifecycle_stage: active
+run_id: 6eba2e929a954385aead413e4957f496
+run_name: intrigued-hare-522
+run_uuid: 6eba2e929a954385aead413e4957f496
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722679759125
+status: 3
+tags: []
+user_id: ishwarpawar

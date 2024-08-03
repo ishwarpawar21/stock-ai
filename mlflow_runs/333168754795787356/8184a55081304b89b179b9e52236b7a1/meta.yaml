@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ishwarpawar/Desktop/stock_AI/stock-ai/mlflow_runs/333168754795787356/8184a55081304b89b179b9e52236b7a1/artifacts
+end_time: 1722666895651
+entry_point_name: ''
+experiment_id: '333168754795787356'
+lifecycle_stage: active
+run_id: 8184a55081304b89b179b9e52236b7a1
+run_name: delightful-horse-379
+run_uuid: 8184a55081304b89b179b9e52236b7a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722666895634
+status: 3
+tags: []
+user_id: ishwarpawar

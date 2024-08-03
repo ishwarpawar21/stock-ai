@@ -1,0 +1,20 @@
+artifact_path: lstm_model
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.8.19
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.13.1
+    model_type: keras
+    save_format: tf
+mlflow_version: 2.15.0
+model_size_bytes: 1702498
+model_uuid: f1489601a3344a009bd44c5b131b8bd5
+run_id: d669db6fcbe7496eae78e526527ef779
+utc_time_created: '2024-08-03 06:28:18.337695'

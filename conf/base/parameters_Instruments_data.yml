@@ -1,0 +1,11 @@
+# This is a boilerplate parameters config generated for pipeline 'Instruments_data'
+# using Kedro 0.19.6.
+#
+# Documentation for this file format can be found in "Parameters"
+complete_url: "https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz"
+nse_url: "https://assets.upstox.com/market-quote/instruments/exchange/NSE.csv.gz"
+bse_url: "https://assets.upstox.com/market-quote/instruments/exchange/BSE.csv.gz"
+mcx_url: "https://assets.upstox.com/market-quote/instruments/exchange/MCX.csv.gz"
+
+raw_dir: "data/01_raw/Instruments_data"
+intermediate_dir: "data/02_intermediate/Instruments_data"

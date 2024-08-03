@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ishwarpawar/Desktop/stock_AI/stock-ai/mlflow_runs/921859433041907740/9055bd9d0f9548f99526d4c99b6859ee/artifacts
+end_time: 1722630413438
+entry_point_name: ''
+experiment_id: '921859433041907740'
+lifecycle_stage: active
+run_id: 9055bd9d0f9548f99526d4c99b6859ee
+run_name: LSTM
+run_uuid: 9055bd9d0f9548f99526d4c99b6859ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722630396127
+status: 4
+tags: []
+user_id: ishwarpawar

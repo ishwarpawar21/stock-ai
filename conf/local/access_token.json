@@ -1,0 +1,29 @@
+{
+    "email": "ishwarpawar21@gmail.com",
+    "exchanges": [
+        "BSE",
+        "CDS",
+        "NSE",
+        "NFO"
+    ],
+    "products": [
+        "OCO",
+        "D",
+        "CO",
+        "I"
+    ],
+    "broker": "UPSTOX",
+    "user_id": "EW7866",
+    "user_name": "ISHWAR BAPU PAWAR",
+    "order_types": [
+        "MARKET",
+        "LIMIT",
+        "SL",
+        "SL-M"
+    ],
+    "user_type": "individual",
+    "poa": false,
+    "is_active": true,
+    "access_token": "eyJ0eXAiOiJKV1QiLCJrZXlfaWQiOiJza192MS4wIiwiYWxnIjoiSFMyNTYifQ.eyJzdWIiOiJFVzc4NjYiLCJqdGkiOiI2NmFkYzJiN2JkZjMyMDdmN2ZmODRmNTgiLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaWF0IjoxNzIyNjYzNjA3LCJpc3MiOiJ1ZGFwaS1nYXRld2F5LXNlcnZpY2UiLCJleHAiOjE3MjI3MjI0MDB9.fUGD-NvMjcF8RSl9-ZP252jJPmBDnKe6PFPlqG-AA30",
+    "extended_token": null
+}

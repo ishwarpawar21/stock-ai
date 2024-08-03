@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ishwarpawar/Desktop/stock_AI/stock-ai/mlflow_runs/333168754795787356/a87286baf16941afb5c93e4abd5642d4/artifacts
+end_time: 1722672546426
+entry_point_name: ''
+experiment_id: '333168754795787356'
+lifecycle_stage: active
+run_id: a87286baf16941afb5c93e4abd5642d4
+run_name: gaudy-bug-224
+run_uuid: a87286baf16941afb5c93e4abd5642d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722671184124
+status: 3
+tags: []
+user_id: ishwarpawar

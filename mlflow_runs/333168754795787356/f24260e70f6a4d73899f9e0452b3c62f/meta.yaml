@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ishwarpawar/Desktop/stock_AI/stock-ai/mlflow_runs/333168754795787356/f24260e70f6a4d73899f9e0452b3c62f/artifacts
+end_time: 1722680013265
+entry_point_name: ''
+experiment_id: '333168754795787356'
+lifecycle_stage: active
+run_id: f24260e70f6a4d73899f9e0452b3c62f
+run_name: welcoming-bear-62
+run_uuid: f24260e70f6a4d73899f9e0452b3c62f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722680013239
+status: 3
+tags: []
+user_id: ishwarpawar

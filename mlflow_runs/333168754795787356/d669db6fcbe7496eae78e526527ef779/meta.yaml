@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ishwarpawar/Desktop/stock_AI/stock-ai/mlflow_runs/333168754795787356/d669db6fcbe7496eae78e526527ef779/artifacts
+end_time: 1722666516248
+entry_point_name: ''
+experiment_id: '333168754795787356'
+lifecycle_stage: active
+run_id: d669db6fcbe7496eae78e526527ef779
+run_name: charming-skunk-495
+run_uuid: d669db6fcbe7496eae78e526527ef779
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722666461185
+status: 3
+tags: []
+user_id: ishwarpawar

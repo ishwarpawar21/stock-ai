@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ishwarpawar/Desktop/stock_AI/stock-ai/mlflow_runs/333168754795787356/0d1f128dbcfb4f1faa8597902431ba5d/artifacts
+end_time: 1722683646339
+entry_point_name: ''
+experiment_id: '333168754795787356'
+lifecycle_stage: active
+run_id: 0d1f128dbcfb4f1faa8597902431ba5d
+run_name: kindly-skunk-64
+run_uuid: 0d1f128dbcfb4f1faa8597902431ba5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722680296898
+status: 3
+tags: []
+user_id: ishwarpawar

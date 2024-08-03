@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ishwarpawar/Desktop/stock_AI/stock-ai/mlflow_runs/921859433041907740/3443f3d501a447f38a69be523a1632ab/artifacts
+end_time: 1722631183834
+entry_point_name: ''
+experiment_id: '921859433041907740'
+lifecycle_stage: active
+run_id: 3443f3d501a447f38a69be523a1632ab
+run_name: monumental-lynx-308
+run_uuid: 3443f3d501a447f38a69be523a1632ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722631165518
+status: 3
+tags: []
+user_id: ishwarpawar
